@@ -8,9 +8,9 @@ dependencies:
   '@nuxt/types':
     specifier: ^2.17.0
     version: 2.17.0
-  nuxt-edge:
-    specifier: latest
-    version: 2.17.1-28131860.8edc36e(consola@3.2.2)(typescript@5.1.5)(vue@2.7.14)
+  nuxt:
+    specifier: ^2.17.0
+    version: 2.17.0(consola@3.2.2)(typescript@5.1.5)(vue@2.7.14)
 
 devDependencies:
   '@nuxt/bridge':
@@ -2079,8 +2079,8 @@ packages:
       rimraf: 3.0.2
     dev: false
 
-  /@nuxt/babel-preset-app-edge@2.17.1-28131860.8edc36e(vue@2.7.14):
-    resolution: {integrity: sha512-pRHnXdfhrFtc17VeVIHjI04L3cljFV0avsIshg8+gPWByQ+/3LK7pu3ZD+2a/ItWPhX1imy2gQe8+e7rPvNfhg==}
+  /@nuxt/babel-preset-app@2.17.0(vue@2.7.14):
+    resolution: {integrity: sha512-1fDcehn5MUoCMyrGZN/we4RmV9S14iotBosdZ9KeDvOTgPXLXqi/R+D6+esVNYeHe/iNKrJZ4ipEEH/BsII5pQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
       '@babel/compat-data': 7.22.5
@@ -2210,14 +2210,14 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/builder-edge@2.17.1-28131860.8edc36e(typescript@5.1.5)(vue@2.7.14):
-    resolution: {integrity: sha512-dwWYBwHsPllBW7wTERi0ohELAmSU4b2Xehfg95FXo7ihvYLlCsmnvGnWoTnkWfbLYvTCCcGynuijuNEE1yxqqQ==}
+  /@nuxt/builder@2.17.0(typescript@5.1.5)(vue@2.7.14):
+    resolution: {integrity: sha512-yLTJiUqF3oQ7dOC2ql2rT9agap8aWpjmOef+dTf6jh8BFZ6Oc2NT/j8mWzo4ruo4YpFqw2FqoOLDW5fCDE1+Bw==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
       '@nuxt/devalue': 2.0.2
-      '@nuxt/utils-edge': 2.17.1-28131860.8edc36e
-      '@nuxt/vue-app-edge': 2.17.1-28131860.8edc36e
-      '@nuxt/webpack-edge': 2.17.1-28131860.8edc36e(typescript@5.1.5)(vue@2.7.14)
+      '@nuxt/utils': 2.17.0
+      '@nuxt/vue-app': 2.17.0
+      '@nuxt/webpack': 2.17.0(typescript@5.1.5)(vue@2.7.14)
       chalk: 4.1.2
       chokidar: 3.5.3
       consola: 3.2.2
@@ -2293,13 +2293,13 @@ packages:
       - whiskers
     dev: false
 
-  /@nuxt/cli-edge@2.17.1-28131860.8edc36e:
-    resolution: {integrity: sha512-Nr29PGW2bDmje1o9lsjyOO5vyUtuga/1fUBvpkYosVpElYC49LHlyAI2hfKaR0tDi1+Obg/Kv8xi/zfACjSvtg==}
+  /@nuxt/cli@2.17.0:
+    resolution: {integrity: sha512-5d1Ekk3qnMz6+woSjWJ6IshfQxBJA8Qy7n630pD/cBZf8bttyb6WaILaUhZEAA+t3wy3LewfPBO55K+BN7o/lA==}
     engines: {node: ^14.18.0 || >=16.10.0}
     hasBin: true
     dependencies:
-      '@nuxt/config-edge': 2.17.1-28131860.8edc36e
-      '@nuxt/utils-edge': 2.17.1-28131860.8edc36e
+      '@nuxt/config': 2.17.0
+      '@nuxt/utils': 2.17.0
       boxen: 5.1.2
       chalk: 4.1.2
       compression: 1.7.4
@@ -2307,7 +2307,7 @@ packages:
       consola: 3.2.2
       crc: 4.3.2
       defu: 6.1.2
-      destr: 2.0.0
+      destr: 1.2.2
       execa: 5.1.1
       exit: 0.1.2
       fs-extra: 10.1.0
@@ -2343,14 +2343,14 @@ packages:
       vue-template-compiler: 2.7.14
     dev: false
 
-  /@nuxt/config-edge@2.17.1-28131860.8edc36e:
-    resolution: {integrity: sha512-bognCUQnLvEDXHvcj2GEnXVUD9MHzAk9lhcgtGcnsg8sLJCdXN1wXRdsWK/qoHoqfSGS+FZGnG3fAI0GliRvUQ==}
+  /@nuxt/config@2.17.0:
+    resolution: {integrity: sha512-KJWpFFs4nMpmGzkaRZJIWbDDQjrwwYPBGaKnjWyywfSBdM+9BXk27dxLG11EIVHDTn1P94nDTpu9qZywTi1OBQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
-      '@nuxt/utils-edge': 2.17.1-28131860.8edc36e
+      '@nuxt/utils': 2.17.0
       consola: 3.2.2
       defu: 6.1.2
-      destr: 2.0.0
+      destr: 1.2.2
       dotenv: 16.3.1
       lodash: 4.17.21
       rc9: 2.1.1
@@ -2358,13 +2358,13 @@ packages:
       ufo: 1.1.2
     dev: false
 
-  /@nuxt/core-edge@2.17.1-28131860.8edc36e:
-    resolution: {integrity: sha512-yey28Iz4s+UT9bnN+4BL7JAm/rAbH+v3dsUojR8GsJWvFBHcm4yn5OQjoxMMf0rgf3n/A1ByqSSLM1pim07dkg==}
+  /@nuxt/core@2.17.0:
+    resolution: {integrity: sha512-YiXA29Akbkd9+uCdUmWclXjmp0XmxbQJkz8IN5NfV9wIPPnbvYJEiDnHJxazrLESG2dA0BTzIxbWCGeuIDukCA==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
-      '@nuxt/config-edge': 2.17.1-28131860.8edc36e
-      '@nuxt/server-edge': 2.17.1-28131860.8edc36e
-      '@nuxt/utils-edge': 2.17.1-28131860.8edc36e
+      '@nuxt/config': 2.17.0
+      '@nuxt/server': 2.17.0
+      '@nuxt/utils': 2.17.0
       consola: 3.2.2
       fs-extra: 10.1.0
       hable: 3.0.0
@@ -2390,11 +2390,11 @@ packages:
       webpack: 4.46.0
     dev: false
 
-  /@nuxt/generator-edge@2.17.1-28131860.8edc36e:
-    resolution: {integrity: sha512-ny0EHLQINuLxie1sMIjVxgfG2/evGoGmpBoin2PVAbvIp92muF5ztVm2aiWSaSg78vcDF8gDbTnx5Z6ouuHSww==}
+  /@nuxt/generator@2.17.0:
+    resolution: {integrity: sha512-O9Jhr/WAxdI5DzD82v4BmyhGZI2RZ25ChxDSDzvYMHU+2o/Vm2PJnJKvb1ZlHpIR/2O/kzWMg3QcYkag7DvrkA==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
-      '@nuxt/utils-edge': 2.17.1-28131860.8edc36e
+      '@nuxt/utils': 2.17.0
       chalk: 4.1.2
       consola: 3.2.2
       defu: 6.1.2
@@ -2488,12 +2488,12 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/server-edge@2.17.1-28131860.8edc36e:
-    resolution: {integrity: sha512-gktq40vjdPCBgc8g7a3te87nS/jPUMetwn5MOPJW/EkvNbVirW0hNshUgsXCTdt5okP4Lh5dOpitbIzRH2DI7Q==}
+  /@nuxt/server@2.17.0:
+    resolution: {integrity: sha512-qe7RbxOna8EvccCbymc8Q8et6mFmOlyPVyxfvfblz5vzm55Lu8rlp3g7VRQTr62gS/x5lh+HtOynYrv56JxX/A==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
-      '@nuxt/utils-edge': 2.17.1-28131860.8edc36e
-      '@nuxt/vue-renderer-edge': 2.17.1-28131860.8edc36e
+      '@nuxt/utils': 2.17.0
+      '@nuxt/vue-renderer': 2.17.0
       '@nuxtjs/youch': 4.2.3
       compression: 1.7.4
       connect: 3.7.0
@@ -2563,8 +2563,8 @@ packages:
     resolution: {integrity: sha512-MSZza7dxccNb/p7nuzGF8/m4POaFpHzVhNdR7f4xahOpH7Ja02lFeYR+rHtoHIJC0yym4qriqv0mQ+Qf/R61bQ==}
     dev: true
 
-  /@nuxt/utils-edge@2.17.1-28131860.8edc36e:
-    resolution: {integrity: sha512-QF6BeL82o62zsOBRTR9ASrOV2SqlaFVOpweHmR9UxWZo9IuDvTokGHQeoWaQZDT7dAo6a+OjuwH2ikGAu7U3pQ==}
+  /@nuxt/utils@2.17.0:
+    resolution: {integrity: sha512-woL81udNtO3LWtpnmmkz5iFjhnKyG5NUA9qlBkz5ZoibxCnyByQFRllTn93zx3WhW7SSezJ1FKu5Dd3Nv7Rnkw==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
       consola: 3.2.2
@@ -2581,8 +2581,8 @@ packages:
       ufo: 1.1.2
     dev: false
 
-  /@nuxt/vue-app-edge@2.17.1-28131860.8edc36e:
-    resolution: {integrity: sha512-BSTuhX9PFydAHTOQyp6DqVK0EWbPuGzS1cORbaCJCoFMBg3MjsXMJyAzepIZ+dulfcBzadbEAi7MDht6PaANNQ==}
+  /@nuxt/vue-app@2.17.0:
+    resolution: {integrity: sha512-XdmLkuWfV/pmUmCd0x/ICq4YvipoHOlM9io8Fjbnnz2vVm3CboYGWeI7/bqp7BV4snHXSjWVekZo09VghLkyBA==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
       node-fetch-native: 1.2.0
@@ -2597,12 +2597,12 @@ packages:
       vuex: 3.6.2(vue@2.7.14)
     dev: false
 
-  /@nuxt/vue-renderer-edge@2.17.1-28131860.8edc36e:
-    resolution: {integrity: sha512-wxkdK0ujD07IzCd1PjYrMQ8tUEGvYjVI/Gbg4Ba9dFasXdYNvBUVoRZzmbaM0Twxa5lnp8EYs1NDwNGnicUHpA==}
+  /@nuxt/vue-renderer@2.17.0:
+    resolution: {integrity: sha512-lSHJGsvsZUAQpd7PXEtibk9/G58SS6T8v4WtBIEd3eFoX5D+AunJvpfoh79nQhlDnHeUaS49BGXjP6N7G1DM9A==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
       '@nuxt/devalue': 2.0.2
-      '@nuxt/utils-edge': 2.17.1-28131860.8edc36e
+      '@nuxt/utils': 2.17.0
       consola: 3.2.2
       defu: 6.1.2
       fs-extra: 10.1.0
@@ -2614,14 +2614,14 @@ packages:
       vue-server-renderer: 2.7.14
     dev: false
 
-  /@nuxt/webpack-edge@2.17.1-28131860.8edc36e(typescript@5.1.5)(vue@2.7.14):
-    resolution: {integrity: sha512-ypBJXJhC8KaN7KeNYRoxDH8YErQGPlQmdkA4B6OhPcYWuN+uqcheCM+XNwE7Hg4e7bPfa9KUAtJkZ/dY8IhPJw==}
+  /@nuxt/webpack@2.17.0(typescript@5.1.5)(vue@2.7.14):
+    resolution: {integrity: sha512-abtLBtIgdMUyxHMcl6TilazulhSppaHIK4qexOuNkwJxy4DSbm1qPRMqu5w7rlTVBV86OkvFF/gAi1LMsSyVVg==}
     engines: {node: ^14.18.0 || >=16.10.0}
     dependencies:
       '@babel/core': 7.22.5
-      '@nuxt/babel-preset-app-edge': 2.17.1-28131860.8edc36e(vue@2.7.14)
+      '@nuxt/babel-preset-app': 2.17.0(vue@2.7.14)
       '@nuxt/friendly-errors-webpack-plugin': 2.5.2(webpack@4.46.0)
-      '@nuxt/utils-edge': 2.17.1-28131860.8edc36e
+      '@nuxt/utils': 2.17.0
       babel-loader: 8.3.0(@babel/core@7.22.5)(webpack@4.46.0)
       cache-loader: 4.1.0(webpack@4.46.0)
       caniuse-lite: 1.0.30001509
@@ -7968,26 +7968,26 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /nuxt-edge@2.17.1-28131860.8edc36e(consola@3.2.2)(typescript@5.1.5)(vue@2.7.14):
-    resolution: {integrity: sha512-8zWzFo8bMMOodQPdnYe0sAJLnp997FkJePqnv65iqnlfIYSTptKaYZMgs5BNENMVRjxWDi1wyY5Zm2IWvJm8SQ==}
+  /nuxt@2.17.0(consola@3.2.2)(typescript@5.1.5)(vue@2.7.14):
+    resolution: {integrity: sha512-+xEB8VReXqvSVvizBQ2mpV4nW8U3o2r4fctJ1XIzxgvYszrUSXeQf2mfF/1kKpJJTdReNMspaF6UCB7qz2bkYw==}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@nuxt/babel-preset-app-edge': 2.17.1-28131860.8edc36e(vue@2.7.14)
-      '@nuxt/builder-edge': 2.17.1-28131860.8edc36e(typescript@5.1.5)(vue@2.7.14)
-      '@nuxt/cli-edge': 2.17.1-28131860.8edc36e
+      '@nuxt/babel-preset-app': 2.17.0(vue@2.7.14)
+      '@nuxt/builder': 2.17.0(typescript@5.1.5)(vue@2.7.14)
+      '@nuxt/cli': 2.17.0
       '@nuxt/components': 2.2.1(consola@3.2.2)
-      '@nuxt/config-edge': 2.17.1-28131860.8edc36e
-      '@nuxt/core-edge': 2.17.1-28131860.8edc36e
-      '@nuxt/generator-edge': 2.17.1-28131860.8edc36e
+      '@nuxt/config': 2.17.0
+      '@nuxt/core': 2.17.0
+      '@nuxt/generator': 2.17.0
       '@nuxt/loading-screen': 2.0.4
       '@nuxt/opencollective': 0.3.3
-      '@nuxt/server-edge': 2.17.1-28131860.8edc36e
+      '@nuxt/server': 2.17.0
       '@nuxt/telemetry': 1.4.1
-      '@nuxt/utils-edge': 2.17.1-28131860.8edc36e
-      '@nuxt/vue-app-edge': 2.17.1-28131860.8edc36e
-      '@nuxt/vue-renderer-edge': 2.17.1-28131860.8edc36e
-      '@nuxt/webpack-edge': 2.17.1-28131860.8edc36e(typescript@5.1.5)(vue@2.7.14)
+      '@nuxt/utils': 2.17.0
+      '@nuxt/vue-app': 2.17.0
+      '@nuxt/vue-renderer': 2.17.0
+      '@nuxt/webpack': 2.17.0(typescript@5.1.5)(vue@2.7.14)
     transitivePeerDependencies:
       - '@vue/compiler-sfc'
       - arc-templates

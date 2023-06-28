@@ -32,5 +32,8 @@ export default defineNuxtConfig( {
    */
   plugins: [],
   ssr: false,
-  target: 'static'
+  target: 'static',
+  bridge: {
+    meta: true
+  }
 });
